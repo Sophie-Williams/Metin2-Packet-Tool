@@ -154,6 +154,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="settings\packet.h" />
     <ClInclude Include="settings\packet_data.h" />
+    <ClInclude Include="settings\service.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PacketTool.cpp" />
