@@ -1,3 +1,6 @@
+#ifndef __packet__
+#define __packet__
+#include "service.h"
 enum
 {
 	HEADER_CG_HANDSHAKE				= 0xff,
@@ -434,3 +437,4 @@ enum
 	HEADER_GP_CONFIRM_PASSPOD = 1,
 	HEADER_PG_CONFIRM_PASSPOD = 2,
 };
+#endif
