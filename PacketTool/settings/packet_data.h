@@ -1,3 +1,6 @@
+#include "service.h"
+#include "packet.h"
+#include <vector>
 enum {GC, CG, GG, GD, DG, GP, PG, PACKET_MAX_NUM};
 std::vector<unsigned int> packet_data[PACKET_MAX_NUM];
 auto create_data()
